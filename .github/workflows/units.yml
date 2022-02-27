@@ -1,10 +1,11 @@
 name: Units
 on:
   pull_request:
+  push:
 
 jobs:
-  sanity:
-    name: Sanity (${{ matrix.ansible }})
+  units:
+    name: Units (${{ matrix.ansible }})
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -32,5 +33,5 @@ jobs:
     - name: Install ansible-base (${{ matrix.ansible }})
       run: pip install https://github.com/ansible/ansible/archive/${{ matrix.ansible }}.tar.gz --disable-pip-version-check
 
-    - name: Run sanity tests
+    - name: Run unit tests
       run: ansible-test units --docker -v --color

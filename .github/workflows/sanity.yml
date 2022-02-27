@@ -1,6 +1,7 @@
 name: Sanity
 on:
   pull_request:
+  push:
 
 jobs:
   sanity:
