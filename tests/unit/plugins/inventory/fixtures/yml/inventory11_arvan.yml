@@ -1,0 +1,4 @@
+---
+plugin: arvancloud.iaas.arvan
+api_key: Apikey uuu
+hostname: v6_public_ip

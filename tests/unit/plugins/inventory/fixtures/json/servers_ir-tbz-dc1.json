@@ -1,0 +1,226 @@
+[
+    {
+        "id": "2693b214-98f4-4c84-9af8-31e053c76fe2",
+        "name": "vm0",
+        "flavor": {
+            "id": "g1-1-1-0",
+            "name": "g1-1-1-0",
+            "ram": 1024,
+            "swap": "",
+            "vcpus": 1,
+            "disk": 25
+        },
+        "status": "ACTIVE",
+        "image": {
+            "id": "a17b193b-b8cf-4286-8e8e-f36c66a9fa42",
+            "name": "Ubuntu-20.04",
+            "min_disk": 0,
+            "min_ram": 0,
+            "os": "ubuntu",
+            "os_version": "20.04",
+            "progress": 100,
+            "size": 0,
+            "status": "active",
+            "created": "2021-11-02T14:26:21Z",
+            "username": "ubuntu",
+            "metadata": {
+                "ar_visibility": "1",
+                "hw_disk_bus": "virtio",
+                "hw_qemu_guest_agent": "True",
+                "hw_vif_multiqueue_enabled": "True",
+                "hw_watchdog_action": "reset",
+                "os": "ubuntu",
+                "os_distro": "ubuntu",
+                "os_hash_algo": "sha512",
+                "os_hash_value": "83ec9e35ee24293cd00303f4d61c6f5c9ec5943c155d4652fddbd54ee158c431b9c43fbb08808781cc38d8293a6ecc8b7d8988c41c82e89983dfc47cd7e51270",
+                "os_type": "linux",
+                "os_version": "20.04",
+                "owner_specified.openstack.md5": "",
+                "owner_specified.openstack.object": "images/ubuntu-20.04",
+                "owner_specified.openstack.sha256": "",
+                "ssh_key": "1",
+                "ssh_password": "1",
+                "stores": "images_ssd_g1",
+                "username": "ubuntu"
+            },
+            "documents": []
+        },
+        "created": "2022-02-10T15:57:49Z",
+        "password": "",
+        "task_state": null,
+        "key_name": "ir-tbz-dc1X",
+        "ar_next": "",
+        "security_groups": [
+            {
+                "id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                "description": "ArvanCloud Default Security Group",
+                "name": "arDefault",
+                "readonly": "",
+                "real_name": "arDefault",
+                "rules": [
+                    {
+                        "id": "0fd77658-57e1-4331-bdff-67c4344f9a6f",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "icmp"
+                    },
+                    {
+                        "id": "4621e675-3c8f-4d54-9095-71206b2caba2",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv6",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    },
+                    {
+                        "id": "7dc43b99-9e4f-4030-9e75-a42309fe8cb4",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "udp"
+                    },
+                    {
+                        "id": "ddfeea95-2dd1-4857-93fb-687942f9f375",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "tcp"
+                    },
+                    {
+                        "id": "e5fc8aa3-64ff-4330-9689-db138a842b3e",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    }
+                ]
+            },
+            {
+                "id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                "description": "ArvanCloud Default Security Group",
+                "name": "arDefault",
+                "readonly": "",
+                "real_name": "arDefault",
+                "rules": [
+                    {
+                        "id": "0fd77658-57e1-4331-bdff-67c4344f9a6f",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "icmp"
+                    },
+                    {
+                        "id": "4621e675-3c8f-4d54-9095-71206b2caba2",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv6",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    },
+                    {
+                        "id": "7dc43b99-9e4f-4030-9e75-a42309fe8cb4",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "udp"
+                    },
+                    {
+                        "id": "ddfeea95-2dd1-4857-93fb-687942f9f375",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "tcp"
+                    },
+                    {
+                        "id": "e5fc8aa3-64ff-4330-9689-db138a842b3e",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv4",
+                        "group_id": "0b7cf3ea-d5ee-470b-95f7-cacbc77382a2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    }
+                ]
+            }
+        ],
+        "addresses": {
+            "LAN1": [
+                {
+                    "mac_addr": "fa:16:3e:49:ac:34",
+                    "version": "4",
+                    "addr": "10.2.0.174",
+                    "type": "fixed",
+                    "is_public": false
+                }
+            ],
+            "public1": [
+                {
+                    "mac_addr": "fa:16:3e:c8:30:9a",
+                    "version": "4",
+                    "addr": "188.121.111.89",
+                    "type": "fixed",
+                    "is_public": true
+                }
+            ]
+        },
+        "tags": [],
+        "ha_enabled": false
+    }
+]

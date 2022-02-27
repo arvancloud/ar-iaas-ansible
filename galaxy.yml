@@ -1,0 +1,18 @@
+---
+authors:
+  - "Zahir Mohsen Moradi"
+dependencies: {}
+description: 'Ansible Inventory Plugin for Arvan Cloud'
+documentation: ''
+homepage: 'https://github.com/arvancloud/ar-iaas-ansible'
+issues: 'https://github.com/arvancloud/ar-iaas-ansible/issues'
+license: [GPL-3.0-or-later]
+name: iaas
+namespace: arvancloud
+readme: README.md
+repository: 'https://github.com/arvancloud/ar-iaas-ansible'
+tags:
+  - cloud
+  - arvan
+  - iaas
+version: 0.0.1

@@ -1,0 +1,4 @@
+---
+plugin: arvancloud.iaas.arvan
+api_key: Apikey qqq
+filter_by_tag: tag1

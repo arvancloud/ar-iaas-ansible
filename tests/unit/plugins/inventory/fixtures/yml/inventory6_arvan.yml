@@ -1,0 +1,6 @@
+---
+plugin: arvancloud.iaas.arvan
+api_key: Apikey qqq
+filter_by_dcs:
+  - Herman
+  - nl-ams-su1
