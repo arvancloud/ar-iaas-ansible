@@ -1,0 +1,303 @@
+[
+    {
+        "id": "b9d0a4f0-67db-4b47-8a1c-8447fb8465de",
+        "name": "vm1",
+        "flavor": {
+            "id": "g1-3-1-50",
+            "name": "ar-g1-small3-3-1-50",
+            "ram": 3072,
+            "swap": "",
+            "vcpus": 1,
+            "disk": 50
+        },
+        "status": "ACTIVE",
+        "image": {
+            "id": "925731c6-df0d-4509-8db2-ce6226b05f2a",
+            "name": "Fedora-31",
+            "min_disk": 0,
+            "min_ram": 0,
+            "os": "fedora",
+            "os_version": "31",
+            "progress": 100,
+            "size": 4294967296,
+            "status": "active",
+            "created": "2020-03-28T22:18:26Z",
+            "username": "fedora",
+            "metadata": {
+                "ar_visibility": "1",
+                "hw_disk_bus": "scsi",
+                "hw_qemu_guest_agent": "yes",
+                "hw_scsi_model": "virtio-scsi",
+                "hw_vif_model": "virtio",
+                "hw_vif_multiqueue_enabled": "true",
+                "hw_watchdog_action": "reset",
+                "os": "fedora",
+                "os_distro": "fedora",
+                "os_hash_algo": "sha512",
+                "os_hash_value": "0add3bc73737b983576b014bc5c1460cfcd097fbc1a2c5dadc87389aab9ed486b8d503f4ee0efc2ed44b7d26ffda9003114b5decec00ffa1a4025147ea3bbc59",
+                "os_require_quiesce": "yes",
+                "os_type": "linux",
+                "os_version": "31",
+                "real_size": "4294967296",
+                "ssh_key": "1",
+                "ssh_password": "1",
+                "stores": "rbd",
+                "username": "fedora"
+            },
+            "documents": []
+        },
+        "created": "2022-02-10T17:32:56Z",
+        "password": "",
+        "task_state": null,
+        "key_name": "nl-ams-su1-key",
+        "ar_next": "",
+        "security_groups": [
+            {
+                "id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                "description": "ArvanCloud Default Security Group",
+                "name": "arDefault",
+                "readonly": "",
+                "real_name": "arDefault",
+                "rules": [
+                    {
+                        "id": "43a21a83-cf4e-49d6-a7bb-f36fa7709ea7",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "udp"
+                    },
+                    {
+                        "id": "62299735-9cd7-4ae0-958e-a25f558a046b",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "icmp"
+                    },
+                    {
+                        "id": "95187714-e350-45e8-b38f-921509b2ced7",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "tcp"
+                    },
+                    {
+                        "id": "ef4e7ae4-24a1-43d5-9ff5-8cc15382bb14",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    },
+                    {
+                        "id": "f5ad4e39-11c5-46e3-a2ed-256d38517195",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv6",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    }
+                ]
+            }
+        ],
+        "addresses": {
+            "LAN1": [
+                {
+                    "mac_addr": "fa:16:3e:1a:42:45",
+                    "version": "4",
+                    "addr": "10.3.0.166",
+                    "type": "fixed",
+                    "is_public": false
+                }
+            ],
+            "public1": [
+                {
+                    "mac_addr": "fa:16:3e:f1:02:b9",
+                    "version": "4",
+                    "addr": "130.185.122.57",
+                    "type": "fixed",
+                    "is_public": true
+                }
+            ]
+        },
+        "tags": [],
+        "ha_enabled": false
+    },
+    {
+        "id": "c985c5a7-a4a5-4ec6-843a-42edd61d32b5",
+        "name": "vm2",
+        "flavor": {
+            "id": "g1-3-1-50",
+            "name": "ar-g1-small3-3-1-50",
+            "ram": 3072,
+            "swap": "",
+            "vcpus": 1,
+            "disk": 50
+        },
+        "status": "ACTIVE",
+        "image": {
+            "id": "9669300a-7148-454e-a947-182d306c94fe",
+            "name": "CentOS-7",
+            "min_disk": 0,
+            "min_ram": 0,
+            "os": "centos",
+            "os_version": "7",
+            "progress": 100,
+            "size": 2472017920,
+            "status": "active",
+            "created": "2020-06-21T11:36:40Z",
+            "username": "centos",
+            "metadata": {
+                "ar_visibility": "1",
+                "hw_disk_bus": "virtio",
+                "hw_qemu_guest_agent": "yes",
+                "hw_vif_model": "virtio",
+                "hw_vif_multiqueue_enabled": "true",
+                "hw_watchdog_action": "reset",
+                "os": "centos",
+                "os_distro": "centos",
+                "os_hash_algo": "sha512",
+                "os_hash_value": "45c03225dcb11e34aedb6e6819025a7def73c69770959aed973848d3b8c02dd0481a9eaa89ae9aa09c25ed1fb48d8ee2142df582376cacb6faf4e9be3c5d882d",
+                "os_require_quiesce": "yes",
+                "os_type": "linux",
+                "os_version": "7",
+                "real_size": "2472017920",
+                "ssh_key": "1",
+                "ssh_password": "1",
+                "stores": "rbd",
+                "username": "centos"
+            },
+            "documents": []
+        },
+        "created": "2022-02-10T17:31:41Z",
+        "password": "",
+        "task_state": null,
+        "key_name": "nl-ams-su1X",
+        "ar_next": "",
+        "security_groups": [
+            {
+                "id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                "description": "ArvanCloud Default Security Group",
+                "name": "arDefault",
+                "readonly": "",
+                "real_name": "arDefault",
+                "rules": [
+                    {
+                        "id": "43a21a83-cf4e-49d6-a7bb-f36fa7709ea7",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "udp"
+                    },
+                    {
+                        "id": "62299735-9cd7-4ae0-958e-a25f558a046b",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "icmp"
+                    },
+                    {
+                        "id": "95187714-e350-45e8-b38f-921509b2ced7",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "ingress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": "tcp"
+                    },
+                    {
+                        "id": "ef4e7ae4-24a1-43d5-9ff5-8cc15382bb14",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv4",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    },
+                    {
+                        "id": "f5ad4e39-11c5-46e3-a2ed-256d38517195",
+                        "created_at": "",
+                        "updated_at": "",
+                        "description": "",
+                        "direction": "egress",
+                        "ether_type": "IPv6",
+                        "group_id": "f3abc628-9ef1-4484-9c62-a8167d37d0c2",
+                        "ip": "",
+                        "port_start": 0,
+                        "port_end": 0,
+                        "protocol": ""
+                    }
+                ]
+            }
+        ],
+        "addresses": {
+            "LAN1": [
+                {
+                    "mac_addr": "fa:16:3e:b5:6f:7c",
+                    "version": "4",
+                    "addr": "10.3.0.156",
+                    "type": "fixed",
+                    "is_public": false
+                }
+            ],
+            "public1": [
+                {
+                    "mac_addr": "fa:16:3e:e4:c9:dc",
+                    "version": "4",
+                    "addr": "130.185.122.205",
+                    "type": "fixed",
+                    "is_public": true
+                }
+            ]
+        },
+        "tags": [],
+        "ha_enabled": false
+    }
+]

@@ -1,0 +1,8 @@
+---
+plugin: arvancloud.iaas.arvan
+api_key: Apikey ooo
+api_account: account1
+api_timeout: 9999
+api_retries: 9998
+api_retry_max_delay: 9997
+api_endpoint: APIENDPOINT1

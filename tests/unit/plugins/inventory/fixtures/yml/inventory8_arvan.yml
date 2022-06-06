@@ -1,0 +1,4 @@
+---
+plugin: arvancloud.iaas.arvan
+api_key: Apikey lll
+hostname: v4_private_ip

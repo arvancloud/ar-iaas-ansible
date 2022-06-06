@@ -1,0 +1,37 @@
+name: Units
+on:
+  pull_request:
+  push:
+
+jobs:
+  units:
+    name: Units (${{ matrix.ansible }})
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ansible_collections/arvancloud/iaas
+    strategy:
+      fail-fast: false
+      matrix:
+        ansible:
+        - stable-2.12
+        - stable-2.11
+        - stable-2.10
+        - stable-2.9
+        - devel
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+      with:
+        path: ansible_collections/arvancloud/iaas
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install ansible-base (${{ matrix.ansible }})
+      run: pip install https://github.com/ansible/ansible/archive/${{ matrix.ansible }}.tar.gz --disable-pip-version-check
+
+    - name: Run unit tests
+      run: ansible-test units --docker -v --color

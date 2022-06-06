@@ -1,0 +1,4 @@
+---
+plugin: arvancloud.iaas.arvan
+api_key: Apikey ppp
+ignore_failed_dcs: false
